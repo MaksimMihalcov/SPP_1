@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracer.Serialization.Json", "Tracer.Serialization.Json\Tracer.Serialization.Json.csproj", "{5FFA4014-FA67-450E-A2DD-1B2469AE9EFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracer.Serialization.Yaml", "Tracer.Serialization.Yaml\Tracer.Serialization.Yaml.csproj", "{A97FADE2-BE93-444A-AA60-E29CF01D2F1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracer.Serialization.Xml", "Tracer.Serialization.Xml\Tracer.Serialization.Xml.csproj", "{49FF1911-5FC7-4025-A1AD-73F6DA920A95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracer.Serialization.Abstractions", "..\Tracer\Tracer.Serialization.Abstractions\Tracer.Serialization.Abstractions.csproj", "{A744F066-1830-4581-96BE-F40FA25F78CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FFA4014-FA67-450E-A2DD-1B2469AE9EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFA4014-FA67-450E-A2DD-1B2469AE9EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFA4014-FA67-450E-A2DD-1B2469AE9EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFA4014-FA67-450E-A2DD-1B2469AE9EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97FADE2-BE93-444A-AA60-E29CF01D2F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97FADE2-BE93-444A-AA60-E29CF01D2F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97FADE2-BE93-444A-AA60-E29CF01D2F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97FADE2-BE93-444A-AA60-E29CF01D2F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49FF1911-5FC7-4025-A1AD-73F6DA920A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49FF1911-5FC7-4025-A1AD-73F6DA920A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49FF1911-5FC7-4025-A1AD-73F6DA920A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49FF1911-5FC7-4025-A1AD-73F6DA920A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A744F066-1830-4581-96BE-F40FA25F78CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A744F066-1830-4581-96BE-F40FA25F78CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A744F066-1830-4581-96BE-F40FA25F78CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A744F066-1830-4581-96BE-F40FA25F78CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE545529-8018-4E0E-9496-C93809946FFF}
+	EndGlobalSection
+EndGlobal

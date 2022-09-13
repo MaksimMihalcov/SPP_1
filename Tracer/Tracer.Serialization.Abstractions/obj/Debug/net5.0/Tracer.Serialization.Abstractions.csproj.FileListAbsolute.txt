@@ -1,0 +1,15 @@
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\bin\Debug\net5.0\Tracer.Serialization.Abstractions.deps.json
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\bin\Debug\net5.0\Tracer.Serialization.Abstractions.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\bin\Debug\net5.0\Tracer.Serialization.Abstractions.pdb
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net5.0\Tracer.Serialization.Abstractions.csproj.AssemblyReference.cache
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net5.0\Tracer.Serialization.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net5.0\Tracer.Serialization.Abstractions.AssemblyInfoInputs.cache
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net5.0\Tracer.Serialization.Abstractions.AssemblyInfo.cs
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net5.0\Tracer.Serialization.Abstractions.csproj.CoreCompileInputs.cache
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net5.0\Tracer.Serialization.Abstractions.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net5.0\refint\Tracer.Serialization.Abstractions.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net5.0\Tracer.Serialization.Abstractions.pdb
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net5.0\ref\Tracer.Serialization.Abstractions.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\bin\Debug\net5.0\Tracer.Core.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\bin\Debug\net5.0\Tracer.Core.pdb
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Serialization.Abstractions\obj\Debug\net5.0\Tracer.Serialization.Abstractions.csproj.CopyComplete

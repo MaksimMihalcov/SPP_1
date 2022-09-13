@@ -1,0 +1,17 @@
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net5.0\Tracer.Serialization.Yaml.deps.json
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net5.0\Tracer.Serialization.Yaml.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net5.0\Tracer.Serialization.Yaml.pdb
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net5.0\Tracer.Core.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net5.0\Tracer.Serialization.Abstractions.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net5.0\Tracer.Serialization.Abstractions.pdb
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\bin\Debug\net5.0\Tracer.Core.pdb
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net5.0\Tracer.Serialization.Yaml.csproj.AssemblyReference.cache
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net5.0\Tracer.Serialization.Yaml.GeneratedMSBuildEditorConfig.editorconfig
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net5.0\Tracer.Serialization.Yaml.AssemblyInfoInputs.cache
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net5.0\Tracer.Serialization.Yaml.AssemblyInfo.cs
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net5.0\Tracer.Serialization.Yaml.csproj.CoreCompileInputs.cache
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net5.0\Tracer.Serialization.Yaml.csproj.CopyComplete
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net5.0\Tracer.Serialization.Yaml.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net5.0\refint\Tracer.Serialization.Yaml.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net5.0\Tracer.Serialization.Yaml.pdb
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer.Serialization\Tracer.Serialization.Yaml\obj\Debug\net5.0\ref\Tracer.Serialization.Yaml.dll
