@@ -12,7 +12,7 @@ namespace Tracer.Core.Tests
             var a = new A(new CTracer());
             a.A1();
             var result = a.GetTraceResult();
-            Assert.AreSame(1500, result.Threads[0].TotalWorkTime);
+            Assert.IsTrue(result.Threads[0].TotalWorkTime - 1500 < 10);
         }
 
         [TestMethod]
@@ -21,7 +21,7 @@ namespace Tracer.Core.Tests
             var b = new B(new CTracer());
             b.B2();
             var result = b.GetTraceResult();
-            Assert.AreSame(3200, result.Threads[0].TotalWorkTime);
+            Assert.IsTrue(result.Threads[0].TotalWorkTime - 3200 < 10);
         }
 
         [TestMethod]
@@ -30,7 +30,7 @@ namespace Tracer.Core.Tests
             var b = new B(new CTracer());
             b.B3();
             var result = b.GetTraceResult();
-            Assert.AreSame(3200, result.Threads[0].TotalWorkTime);
+            Assert.IsTrue(result.Threads[0].TotalWorkTime - 3200 < 10);
         }
     }
 }
