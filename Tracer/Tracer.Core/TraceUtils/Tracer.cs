@@ -11,6 +11,7 @@ namespace Tracer.Core
     {
         private TraceResult Result { get; set; } 
         private Stack<Stopwatch> Watchs { get; set; }
+        private object locker = new();
 
         public CTracer()
         {
@@ -29,41 +30,44 @@ namespace Tracer.Core
 
         public void StartTrace()
         {
-            var thread = Result.Threads.FirstOrDefault(x => x.ThreadId == AppDomain.GetCurrentThreadId());
-            var stackTrace = new StackTrace();
-            var methodInfo = stackTrace.GetFrame(1).GetMethod();
-            var method = new Method()
+            lock (locker)
             {
-                MethodName = methodInfo.Name,
-                ClassName = methodInfo.DeclaringType.Name,
-                InnerMethods = new List<Method>()
-            };
-            if (thread == null)
-            {
-                thread = new ThreadItem();
-                thread.ThreadId = AppDomain.GetCurrentThreadId();
-                thread.Methods = new List<Method>();
-                thread.Methods.Add(method);
-                Result.Threads.Add(thread);
-            }
-            else if (Watchs.Count > 0)
-            {
-                try
+                var thread = Result.Threads.FirstOrDefault(x => x.ThreadId == AppDomain.GetCurrentThreadId());
+                var stackTrace = new StackTrace();
+                var methodInfo = stackTrace.GetFrame(1).GetMethod();
+                var method = new Method()
                 {
-                    var topMetodInfo = stackTrace.GetFrame(2).GetMethod();
-                    var topMethod = thread.Methods.FirstOrDefault(x => x.MethodName == topMetodInfo.Name && x.ClassName == topMetodInfo.DeclaringType.Name);
-                    topMethod.InnerMethods.Add(method);
-
+                    MethodName = methodInfo.Name,
+                    ClassName = methodInfo.DeclaringType.Name,
+                    InnerMethods = new List<Method>()
+                };
+                if (thread == null)
+                {
+                    thread = new ThreadItem();
+                    thread.ThreadId = AppDomain.GetCurrentThreadId();
+                    thread.Methods = new List<Method>();
+                    thread.Methods.Add(method);
+                    Result.Threads.Add(thread);
                 }
-                catch { }
+                else if (Watchs.Count > 0)
+                {
+                    try
+                    {
+                        var topMetodInfo = stackTrace.GetFrame(2).GetMethod();
+                        var topMethod = thread.Methods.FirstOrDefault(x => x.MethodName == topMetodInfo.Name && x.ClassName == topMetodInfo.DeclaringType.Name);
+                        topMethod.InnerMethods.Add(method);
+
+                    }
+                    catch { }
+                }
+                else
+                {
+                    thread.Methods.Add(method);
+                }
+                var watch = new Stopwatch();
+                Watchs.Push(watch);
+                watch.Start();
             }
-            else
-            {
-                thread.Methods.Add(method);
-            }
-            var watch = new Stopwatch();
-            Watchs.Push(watch);
-            watch.Start();
         }
 
         private Method GetMethod(List<Method> methods, string mname, string cname)
@@ -77,12 +81,15 @@ namespace Tracer.Core
 
         public void StopTrace()
         {
-            var stw = Watchs.Pop();
-            stw.Stop();
-            var thread = Result.Threads.FirstOrDefault(x => x.ThreadId == AppDomain.GetCurrentThreadId());
-            var methodInfo = new StackTrace().GetFrame(1).GetMethod();
-            var method = GetMethod(thread.Methods, methodInfo.Name, methodInfo.DeclaringType.Name);
-            method.WorkTime = stw.ElapsedMilliseconds;
+            lock(locker)
+            {
+                var stw = Watchs.Pop();
+                stw.Stop();
+                var thread = Result.Threads.FirstOrDefault(x => x.ThreadId == AppDomain.GetCurrentThreadId());
+                var methodInfo = new StackTrace().GetFrame(1).GetMethod();
+                var method = GetMethod(thread.Methods, methodInfo.Name, methodInfo.DeclaringType.Name);
+                method.WorkTime = stw.ElapsedMilliseconds;
+            }
         }
     }
 }

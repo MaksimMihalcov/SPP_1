@@ -21,7 +21,7 @@ namespace Tracer.Example
         public void MyMethod()
         {
             _tracer.StartTrace();
-            Thread.Sleep(3000);
+            Thread.Sleep(1270);
             _bar.InnerMethod();
             _tracer.StopTrace();
         }
