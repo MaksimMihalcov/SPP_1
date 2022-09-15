@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QeEgcO3JdK7jJmYaBQmbtBAs5euReN6neOeYWipIJc4hVDmaaE2l5O5mMILn+nxp7im5cJPx6W3DgUXTLQbh1g==",
+  "dgSpecHash": "j0KzEV6PgzBHB+1Qi+KaBvD9iVl+Sh+62345mNXqqXttS1Zj6tSir8pqU0QJQU8gnDmUcaRkhxmcXelH916mGA==",
   "success": true,
   "projectFilePath": "D:\\THIS.PROJECT\\SPP .NET\\Laba1\\Tracer\\Tracer.Example\\Tracer.Example.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Max\\.nuget\\packages\\yamldotnet\\12.0.0\\yamldotnet.12.0.0.nupkg.sha512",
     "C:\\Users\\Max\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []

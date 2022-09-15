@@ -6,12 +6,12 @@ using Tracer.Serialization.Abstractions.Structures;
 
 namespace Tracer.Serialization.Xml
 {
-    public class XMLTraceSerializer : ITraceResultSerializer
+    public class XmlTraceSerializer : ITraceResultSerializer
     {
         public string Format { get { return "XML"; } }
-        private XmlSerializer xmlSerializer = new XmlSerializer(typeof(TraceResult));
+        private static XmlSerializer xmlSerializer = new XmlSerializer(typeof(TraceResult));
 
-        public void Serialize(TraceResult traceResult, string filePath)
+        public static void Serialize(TraceResult traceResult, string filePath)
         {
             using (FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate))
             {

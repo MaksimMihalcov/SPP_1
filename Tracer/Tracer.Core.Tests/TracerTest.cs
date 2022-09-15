@@ -8,7 +8,7 @@ namespace Tracer.Core.Tests
         [TestMethod]
         public void Trace1()
         {
-            Assert.AreEqual(1, 1);
+            Assert.AreEqual(1, 2);
         }
 
         [TestMethod]

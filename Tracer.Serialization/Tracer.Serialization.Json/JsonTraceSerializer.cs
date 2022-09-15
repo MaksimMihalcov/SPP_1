@@ -9,7 +9,7 @@ namespace Tracer.Serialization.Json
     {
         public string Format { get { return "JSON"; } }
 
-        public void Serialize(TraceResult traceResult, string filePath)
+        public static void Serialize(TraceResult traceResult, string filePath)
         {
             File.WriteAllText(filePath, JsonSerializer.Serialize(traceResult));
         }

@@ -6,11 +6,11 @@ using YamlDotNet.Serialization;
 
 namespace Tracer.Serialization.Yaml
 {
-    public class YAMLTraceSerializer : ITraceResultSerializer
+    public class YamlTraceSerializer : ITraceResultSerializer
     {
         public string Format { get { return "YAML"; } }
 
-        public void Serialize(TraceResult traceResult, string filePath)
+        public static void Serialize(TraceResult traceResult, string filePath)
         {
             var serializer = new SerializerBuilder().Build();
             File.WriteAllText(filePath, serializer.Serialize(traceResult));

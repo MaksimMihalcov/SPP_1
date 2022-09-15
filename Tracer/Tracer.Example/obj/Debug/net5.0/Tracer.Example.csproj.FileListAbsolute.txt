@@ -17,3 +17,4 @@ D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Example\obj\Debug\net5.0\refint\Tra
 D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Example\obj\Debug\net5.0\Tracer.Example.pdb
 D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Example\obj\Debug\net5.0\Tracer.Example.genruntimeconfig.cache
 D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Example\obj\Debug\net5.0\ref\Tracer.Example.dll
+D:\THIS.PROJECT\SPP .NET\Laba1\Tracer\Tracer.Example\bin\Debug\net5.0\YamlDotNet.dll
